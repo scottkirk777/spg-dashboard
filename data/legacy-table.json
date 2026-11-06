@@ -1,0 +1,47 @@
+{
+ "decisions": [
+  "Both sites on GitHub Pages under scottkirk777: legacy-seminar serves legacytableseminar.com, legacy-table-tv serves legacytable.tv. Deploy is commit and push, never the Netlify connector",
+  "DNS at GoDaddy: four A records to GitHub Pages, www CNAME to scottkirk777.github.io",
+  "RSVP form posts to Web3Forms and emails scott@wrspg.com. Tested live Nov 5",
+  "Daily unattended uptime check emails you if either site is down. It never redeploys or buys anything"
+ ],
+ "open": [
+  "Export the 42 old RSVPs from Netlify Forms",
+  "Delete the old Netlify projects legacy-seminar and legacy-table-tv after the export"
+ ],
+ "milestones": [
+  {
+   "date": "2026-08-27",
+   "text": "Session one: 22 registrations, 9 in person",
+   "done": true
+  },
+  {
+   "date": "2026-11-05",
+   "text": "Sites moved to GitHub Pages",
+   "done": true
+  },
+  {
+   "date": "2026-11-05",
+   "text": "Session two, 6:00 to 7:00 PM",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "legacytableseminar.com",
+   "url": "https://legacytableseminar.com"
+  },
+  {
+   "label": "legacytable.tv",
+   "url": "https://legacytable.tv"
+  },
+  {
+   "label": "Repo: legacy-seminar",
+   "url": "https://github.com/scottkirk777/legacy-seminar"
+  },
+  {
+   "label": "Repo: legacy-table-tv",
+   "url": "https://github.com/scottkirk777/legacy-table-tv"
+  }
+ ]
+}

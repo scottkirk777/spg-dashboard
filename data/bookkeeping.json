@@ -1,0 +1,9 @@
+{
+ "decisions": [
+  "One sheet, vendors as rows grouped by category, months as columns, whole-dollar =a+b+c formulas",
+  "Reconcile against two AMEX exports. Old numbers red, new numbers black. No charge for a vendor that month: leave the old number in red. New vendors get a new row. Personal-looking charges stay in, you sort them"
+ ],
+ "open": [],
+ "milestones": [],
+ "links": []
+}

@@ -1,0 +1,30 @@
+{
+ "decisions": [
+  "One year: 30+ agents. Five years: about 100 across multiple offices",
+  "Comp: 6% off the top, then 80/20, no desk, transaction, tech or E&O fees. 75.2% of gross to the agent",
+  "ICA: 20% referral fee on company leads, agent pays 100% of the E&O deductible capped at $10,000 per claim",
+  "Reference agent for recruits: Tonya Pao",
+  "Systems must keep brand-new and lapsed agents motivated and never embarrassed"
+ ],
+ "open": [
+  "Heather Cornell: strategy questionnaire still not completed as of Oct 19"
+ ],
+ "milestones": [
+  {
+   "date": "2026-09-22",
+   "text": "Nate Boomhower joined",
+   "done": true
+  },
+  {
+   "date": "2026-10-08",
+   "text": "Matt Phelan left",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Agent strategy questionnaire",
+   "url": "https://wrspg-agent-strategy.netlify.app"
+  }
+ ]
+}

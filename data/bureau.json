@@ -1,0 +1,63 @@
+{
+ "decisions": [
+  "Product of Enterprise Real Estate Services, Inc. Weekly verified newsletter plus podcast, one price. Its whole claim is accuracy: if you cannot name where a number came from, it does not ship",
+  "Pricing as modelled: $1,000/mo per brokerage up to four markets, $2,000 setup for 50 agents, agents $19/week or $9.50 if the broker covers half. Bureau's fee is 6% of each agent charge or $3.00, whichever is more",
+  "Stripe charges agents, Bureau remits to brokerages monthly by ACH. Proofs: 48 hours to approve, two approvers max",
+  "Portal built in house (Next.js, Postgres), preview at bureau-portal.netlify.app. Stays on Netlify because it needs server code",
+  "Episodes: Bureau-written script plus two-voice Gemini TTS, 6 to 7 minutes, Time to Buy or Sell? shape",
+  "Events from Rachel (Marblism), one workspace per client. Daily real estate news pull at 6 AM feeds The week in real estate"
+ ],
+ "open": [
+  "Confirm the entity at bizfileonline.sos.ca.gov",
+  "RESEND_API_KEY on the portal so scheduled test sends can go out",
+  "Price a Garden State MLS data licence",
+  "Read Article 11 of the franchise agreement",
+  "Terms draft to an attorney (Linda's 21 points plus v0.5)",
+  "Sales tax confirmation",
+  "Spotify URL unverified, unsubscribe placeholder needs the BoldTrail token",
+  "Company name still open. Bureau of Record is the working name"
+ ],
+ "milestones": [
+  {
+   "date": "2026-09-03",
+   "text": "Name and domain chosen, portal Phase A and B built",
+   "done": true
+  },
+  {
+   "date": "2026-09-09",
+   "text": "NJ broker pitch at Weichert HQ",
+   "done": true
+  },
+  {
+   "date": "2026-09-15",
+   "text": "Elk Grove issue 001 and first machine-made episode",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Sales site",
+   "url": "https://bureauofrecord.com"
+  },
+  {
+   "label": "Roseville specimen",
+   "url": "https://bureauofrecord.com/rv5/issue.html"
+  },
+  {
+   "label": "Elk Grove sample",
+   "url": "https://bureauofrecord.com/eg1/"
+  },
+  {
+   "label": "Portal preview",
+   "url": "https://bureau-portal.netlify.app"
+  },
+  {
+   "label": "Podcast",
+   "url": "https://podcasts.apple.com/us/podcast/time-to-buy-or-sell/id1818907185"
+  },
+  {
+   "label": "Style guide",
+   "url": "https://claude.ai/code/artifact/a82dc835-ed26-41ff-9fbe-22089a48a013"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "decisions": [
+  "Private to you. GitHub Pages cannot password-protect, so the page has a passphrase curtain and a noindex tag. Keep anything you would not want public off it",
+  "Data lives in data/projects.json (the parent list) and data/<id>.json (each child). Edit a file and push, or tell Claude"
+ ],
+ "open": [],
+ "milestones": [
+  {
+   "date": "2026-11-06",
+   "text": "Built and pointed at sierrapacificgroup.homes",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Repo",
+   "url": "https://github.com/scottkirk777/spg-dashboard"
+  }
+ ]
+}

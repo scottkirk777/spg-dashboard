@@ -1,0 +1,24 @@
+{
+ "decisions": [
+  "One handwritten note, four emails, two texts, three calls. Ten people a week. Gives first, asks once on day 25 for two specific referrals",
+  "Legacy Table pieces for contacts with kids in their twenties or thirties, Folsom pieces for the rest",
+  "Do not propose a free valuation or home review as an offer. That is the offer that failed in August"
+ ],
+ "open": [
+  "Real vendor names",
+  "40 ways handout link"
+ ],
+ "milestones": [
+  {
+   "date": "2026-09-16",
+   "text": "Campaign built",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Folsom Sphere Thirty",
+   "url": "https://claude.ai/artifact/XQSi3TwFgNL2pf3sXcpByk"
+  }
+ ]
+}

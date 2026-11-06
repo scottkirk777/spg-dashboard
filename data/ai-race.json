@@ -1,0 +1,43 @@
+{
+ "decisions": [
+  "12 fixed seller queries scored 0 to 3 across Google AI, ChatGPT and Perplexity, re-run Mondays 6:31 AM on your computer",
+  "Rollout order: your own setup first as the demo, then teach the agents, lead by example",
+  "Review Engine: one link only, the office profile's review link; clients mention the agent, the city and bought or sold in the text. Your five backfill asks go to the Scott Kirk Realtor profile instead, since it sits at zero",
+  "The Monday sweep also records the office profile's Google review count and rating, and watches for the stray duplicate Scott Kirk listing to disappear"
+ ],
+ "open": [
+  "Send the five backfill review asks",
+  "Duplicate listing report filed with Google Oct 28, pending review",
+  "First agent to copy the setup"
+ ],
+ "milestones": [
+  {
+   "date": "2026-10-28",
+   "text": "Scoreboard built, weekly sweep scheduled",
+   "done": true
+  },
+  {
+   "date": "2026-10-28",
+   "text": "Review Engine adopted",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "AI share-of-voice scoreboard",
+   "url": "https://claude.ai/artifact/8KoJ1wt9MvakDyBLDvxArx"
+  },
+  {
+   "label": "Review Engine playbook",
+   "url": "https://claude.ai/artifact/PGhgfQnQ4fEZPiNZzuKiRt"
+  },
+  {
+   "label": "Office review link",
+   "url": "https://g.page/r/CbtHipk_9A-_EBM/review"
+  },
+  {
+   "label": "Scott Kirk Realtor review link",
+   "url": "https://g.page/r/CSDl8HnQKnvJEBM/review"
+  }
+ ]
+}

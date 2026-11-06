@@ -1,0 +1,24 @@
+{
+ "decisions": [
+  "Hannaford Cross post is the repeatable per-neighborhood recipe: bottom-of-funnel question as title, answer summary at top, question headings, tables, local MLS sales data",
+  "Apply it to every Folsom neighborhood, at least five a day until done. Candidates named: Empire Ranch, Briggs Ranch, American River Canyon",
+  "Three blogs a week minimum with Claude doing as much as possible. Nick is gone, you verify",
+  "Penny (Marblism) writes final posts from Claude-built prompts: 1,800 to 2,400 words, SPG voice, fair housing discipline, FAQ, CTA"
+ ],
+ "open": [
+  "Next batch of neighborhood posts to approve"
+ ],
+ "milestones": [
+  {
+   "date": "2026-10-29",
+   "text": "Hannaford Cross post published",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Blog",
+   "url": "https://scott-kirk.wrspg.com/blog"
+  }
+ ]
+}

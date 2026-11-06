@@ -1,0 +1,28 @@
+{
+ "decisions": [
+  "Each agent fills the intake form, gets back a step-by-step fix-list PDF in Weichert corporate style",
+  "Agent Google profiles hide the address. Folsom stays off agents' service areas, it belongs to the office profile",
+  "Never ask an agent for a headshot. The Drive library has one for all 16. Send the file, never Drive access",
+  "Public spin-off: the 10-point self-audit page. Form submissions are your follow-up list from talks"
+ ],
+ "open": [
+  "Agents who have not returned the intake form (tracked in the Agent Profile Intake artifact)"
+ ],
+ "milestones": [
+  {
+   "date": "2026-10-28",
+   "text": "Self-audit page approved and live",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Intake form",
+   "url": "https://wrspg-profile-intake.netlify.app"
+  },
+  {
+   "label": "Self-audit page",
+   "url": "https://spg-self-audit.netlify.app"
+  }
+ ]
+}

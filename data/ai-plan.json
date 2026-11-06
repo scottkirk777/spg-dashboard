@@ -1,0 +1,54 @@
+{
+ "decisions": [
+  "Going with the SPG AI implementation plan built after the Nashville retreat: AEO content on existing systems, a clean-session share-of-voice baseline, a one-month video pilot with direct tools capped about $150",
+  "Holding off on Jason Pantana's AI Marketing Academy. Re-decide Dec 1 2026 with real pricing and baseline data. AI naming test runs to Jan 20 2027",
+  "Video pilot: Kling AI Pro plus HeyGen Creator, about $62/mo, you plus one pilot agent. HeyGen avatar approved as appointment-grade",
+  "Testing AiM's free Hyperlocal Market Reports plugin on a Folsom 95630 campaign against your sphere"
+ ],
+ "open": [
+  "Written AI-aware sign-off from the 551 Gage sellers before pilot video one posts (verbal approval received Oct 30)",
+  "AiM plugin still needs a MetroList pull and a BoldTrail contacts.csv export",
+  "Pick the pilot agent"
+ ],
+ "milestones": [
+  {
+   "date": "2026-10-22",
+   "text": "Plan adopted off the retreat",
+   "done": true
+  },
+  {
+   "date": "2026-10-26",
+   "text": "30-day playbook Day 1",
+   "done": true
+  },
+  {
+   "date": "2026-10-30",
+   "text": "Pilot video one produced (551 Gage just-sold recap)",
+   "done": true
+  },
+  {
+   "date": "2026-12-01",
+   "text": "Dec 1 gate: Academy yes or no, pilot folds into the playbook or not",
+   "done": false
+  },
+  {
+   "date": "2027-01-20",
+   "text": "AI naming test ends",
+   "done": false
+  }
+ ],
+ "links": [
+  {
+   "label": "Plan doc",
+   "url": "https://claude.ai/artifact/QYfDu9c6ayuBHercoxq7qV"
+  },
+  {
+   "label": "30-day playbook",
+   "url": "https://claude.ai/artifact/FjDvxoPpX9SmHfxLZGhJyP"
+  },
+  {
+   "label": "Video pilot page",
+   "url": "https://claude.ai/artifact/14EKgzVe7Ka2GkVYxz3FFF"
+  }
+ ]
+}

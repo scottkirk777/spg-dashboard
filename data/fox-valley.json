@@ -1,0 +1,22 @@
+{
+ "decisions": [
+  "Recommended list price $449,000",
+  "Target go-live Friday Nov 6 for the presentation deck"
+ ],
+ "open": [
+  "Confirm the listing agreement is signed and the MetroList filing is in"
+ ],
+ "milestones": [
+  {
+   "date": "2026-10-27",
+   "text": "Listing appointment",
+   "done": true
+  },
+  {
+   "date": "2026-11-06",
+   "text": "Target go-live",
+   "done": false
+  }
+ ],
+ "links": []
+}

@@ -1,0 +1,50 @@
+{
+ "decisions": [
+  "Three-part system (Position, The listing engine, Proof and follow-up). Agents set it up on their own from the page, no training sessions. Works in Claude or ChatGPT",
+  "Agents' copy lives at spg-playbook.netlify.app because the Claude phone app hijacks artifact links. Updates go to both",
+  "Scoreboard is opt in. Anyone who opts out is raising their hand and you run their numbers one on one. That framing never appears in anything agent-facing",
+  "Friday recap task runs 5:10pm PT, emails the office recap, sends you exceptions only",
+  "Nov 27, Dec 25 and Jan 1 are free weeks on the board. January is the payoff window",
+  "Price Ladder and the day 21 price drop pulled from the playbook. Appointment kit is What Sold Instead plus the DOORS run-through",
+  "Agents pull their own expired and cancelled lists through MetroList",
+  "Power Hour: Tuesdays, 10:00am or 6:00pm, on Zoom so it can be recorded"
+ ],
+ "open": [
+  "Agent Resources page still owes the Friday Page cancellation terms and the BoldTrail campaign templates",
+  "Pilot three on the board: Tonya Pao, Joe Cavazos, Nate Boomhower"
+ ],
+ "milestones": [
+  {
+   "date": "2026-10-14",
+   "text": "Playbook and Scoreboard launched at the office meeting",
+   "done": true
+  },
+  {
+   "date": "2026-10-27",
+   "text": "First Power Hour",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "SPG AI Playbook (artifact)",
+   "url": "https://claude.ai/artifact/N3fw5wxLwJ2YZfq3Fy4eky"
+  },
+  {
+   "label": "Agents' copy",
+   "url": "https://spg-playbook.netlify.app"
+  },
+  {
+   "label": "Activity Scoreboard",
+   "url": "https://claude.ai/artifact/Ssd5wE9i1DxkdML4G67TnX"
+  },
+  {
+   "label": "Agent Resources page",
+   "url": "https://claude.ai/artifact/TUnzTmuX1cbpRPeATEefwM"
+  },
+  {
+   "label": "Launch deck Oct 14",
+   "url": "https://claude.ai/artifact/JpyztAccGVPmvhCNbAKwdo"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "decisions": [
+  "Weekly KPI form before the Monday call: recruiting appointments, sales meeting held, open houses and attendees, buyer and seller appointments, daily MyWeichert dashboard check",
+  "Agents' numbers collected by BCC email to the roster, replies due Sunday night. Skip a week and you get a reminder",
+  "Post in the closed Facebook group, Shut Up, Suit Up, Show Up"
+ ],
+ "open": [],
+ "milestones": [
+  {
+   "date": "2026-10-26",
+   "text": "Group launched",
+   "done": true
+  },
+  {
+   "date": "2026-12-31",
+   "text": "Group ends",
+   "done": false
+  }
+ ],
+ "links": []
+}

@@ -1,0 +1,26 @@
+{
+ "decisions": [
+  "Every listing: landing page, prep and staging guide, four emails, four door hangers, MLS remarks, six days of social, all in the agent's name",
+  "Facts verified against the county record, never the agent's flyer. Nothing public before the MetroList filing. Describe the house, never the people",
+  "Hourly scheduled task builds each intake to a noindexed preview and emails the agent with you copied",
+  "BoldTrail Smart Campaign template: New Listing Launch TEMPLATE - COPY ME, DO NOT RUN"
+ ],
+ "open": [
+  "Voice input on the intake form fields (asked Sept 2026)"
+ ],
+ "milestones": [],
+ "links": [
+  {
+   "label": "Intake form",
+   "url": "https://spg-listing-kit.netlify.app/start/"
+  },
+  {
+   "label": "Launch My Listing (agent page)",
+   "url": "https://claude.ai/artifact/3hR4Pa3L3K5VMXnXAdMcuN"
+  },
+  {
+   "label": "Kit source",
+   "url": "https://spg-listing-kit.netlify.app/browse/"
+  }
+ ]
+}

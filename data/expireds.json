@@ -1,0 +1,33 @@
+{
+ "decisions": [
+  "Offers: What Sold Instead, the Price Ladder, the Friday Page, the Walk-Away List, Front Page Folsom, quarterly Didn't Sell Clinic on Zoom",
+  "Seller page is a BoldTrail custom page at scott-kirk.wrspg.com/pages/didnt-sell. Sellers text 916-847-5822 one word: solds, ladder, friday or clinic",
+  "Agents pull their own expired lists through MetroList"
+ ],
+ "open": [
+  "Record the three-minute Price Ladder walkthrough",
+  "Relist Record page waits until three relisted homes close"
+ ],
+ "milestones": [
+  {
+   "date": "2026-09-15",
+   "text": "Seller page live",
+   "done": true
+  },
+  {
+   "date": "2026-10-29",
+   "text": "Page added to the site's top nav",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "Didn't Sell page",
+   "url": "https://scott-kirk.wrspg.com/pages/didnt-sell"
+  },
+  {
+   "label": "Folsom Expired Sixty campaign",
+   "url": "https://claude.ai/artifact/Xujz6ZARr8dRcVUrmbcxfQ"
+  }
+ ]
+}

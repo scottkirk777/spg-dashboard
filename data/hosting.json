@@ -1,0 +1,40 @@
+{
+ "decisions": [
+  "New static sites deploy by git push to GitHub Pages under scottkirk777. Netlify MCP deploys burn too many tokens",
+  "Three Folsom lead sites move too: folsomsinglestoryhomes.com, folsomcosttoown.com, sellinginheritedhomefolsom.com. Forms to Web3Forms. Repos created Nov 5",
+  "*.netlify.app sites stay where they are, since moving changes their URLs. Just stop deploying through the connector",
+  "bureauofrecord.com and bureau-portal stay on Netlify because they need server code",
+  "Five dead Netlify sites approved for deletion"
+ ],
+ "open": [
+  "DNS for the three Folsom lead sites",
+  "Test each Folsom site's Web3Forms form live",
+  "Delete the five dead Netlify sites"
+ ],
+ "milestones": [
+  {
+   "date": "2026-11-05",
+   "text": "Legacy Table sites moved",
+   "done": true
+  },
+  {
+   "date": "2026-11-05",
+   "text": "Folsom lead site repos created",
+   "done": true
+  }
+ ],
+ "links": [
+  {
+   "label": "folsom-single-story",
+   "url": "https://github.com/scottkirk777/folsom-single-story"
+  },
+  {
+   "label": "folsom-cost-to-own",
+   "url": "https://github.com/scottkirk777/folsom-cost-to-own"
+  },
+  {
+   "label": "selling-inherited-home-folsom",
+   "url": "https://github.com/scottkirk777/selling-inherited-home-folsom"
+  }
+ ]
+}
