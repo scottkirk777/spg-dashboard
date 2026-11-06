@@ -81,7 +81,7 @@
    "status": "Running",
    "health": "Needs me",
    "summary": "Folsom neighborhood blog posts to the Hannaford Cross AEO recipe, five a day until every neighborhood is done. You are the only verifier.",
-   "next": "Approve the next batch of neighborhood posts",
+   "next": "Scott asked: create all the blogs. Needs your MLS data and blog publishing, so Claude could not run it unattended",
    "due": "",
    "waiting": 0
   },

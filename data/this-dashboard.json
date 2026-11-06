@@ -3,11 +3,18 @@
   "Private to you. GitHub Pages cannot password-protect, so the page has a passphrase curtain and a noindex tag. Keep anything you would not want public off it",
   "Data lives in data/projects.json (the parent list) and data/<id>.json (each child). Edit a file and push, or tell Claude"
  ],
- "open": [],
+ "open": [
+  "Test message from the dashboard build, Nov 6. If this reaches the hourly task, file it as an open item on this page."
+ ],
  "milestones": [
   {
    "date": "2026-11-06",
    "text": "Built and pointed at sierrapacificgroup.homes",
+   "done": true
+  },
+  {
+   "date": "2026-11-06",
+   "text": "First Tell Claude form message received by the hourly task and filed",
    "done": true
   }
  ],
