@@ -1,29 +1,221 @@
 {
-  "updated": "2026-11-06",
-  "groups": [
-    {"id": "brokerage", "name": "Brokerage"},
-    {"id": "products", "name": "Products and ventures"},
-    {"id": "personal", "name": "My own book"},
-    {"id": "infra", "name": "Sites and systems"}
-  ],
-  "projects": [
-    {"id": "ai-plan", "group": "brokerage", "name": "SPG AI plan and 30-day playbook", "status": "Running", "health": "On track", "summary": "AEO content on existing systems, share-of-voice baseline, one-month video pilot. Dec 1 gate decides the Academy subscription.", "next": "Collect written AI-aware sign-off from the 551 Gage sellers before pilot video one posts", "due": "2026-12-01"},
-    {"id": "ai-race", "group": "brokerage", "name": "AI answer visibility race", "status": "Running", "health": "On track", "summary": "Weekly scoreboard of how SPG shows up when people ask ChatGPT, Perplexity and Google AI who should sell their Folsom house. Review Engine feeds it.", "next": "Read Monday's sweep, then teach the first agent the same setup", "due": ""},
-    {"id": "playbook", "group": "brokerage", "name": "AI Playbook, Scoreboard and Power Hour", "status": "Live", "health": "On track", "summary": "Agents' prompt reference, the opt-in Friday Activity Scoreboard, and Tuesday Power Hour call blocks.", "next": "Friday exceptions email: call anyone silent or three weeks under on conversations", "due": ""},
-    {"id": "get-found", "group": "brokerage", "name": "Get Found Online", "status": "Running", "health": "On track", "summary": "Per-agent online profile fix-lists, the public 10-point self-audit page, and the one-link Google review drive.", "next": "Send your own five backfill review asks to the Scott Kirk Realtor profile", "due": ""},
-    {"id": "listing-campaigns", "group": "brokerage", "name": "Launch My Listing", "status": "Live", "health": "On track", "summary": "Every SPG listing gets the same campaign in the agent's name, built automatically from the intake form and verified against county records.", "next": "Nothing open. Watch the hourly autobuild for failures", "due": ""},
-    {"id": "content", "group": "brokerage", "name": "Hyper-local content library", "status": "Running", "health": "Needs me", "summary": "Folsom neighborhood blog posts to the Hannaford Cross AEO recipe, five a day until every neighborhood is done. You are the only verifier.", "next": "Approve the next batch of neighborhood posts", "due": ""},
-    {"id": "recruiting", "group": "brokerage", "name": "Agent recruiting", "status": "Running", "health": "Needs me", "summary": "Toward 30+ agents in a year. Comp is 6% off the top then 80/20, no fees. Tonya Pao is the reference agent.", "next": "Follow up with Heather Cornell on the strategy questionnaire", "due": ""},
-    {"id": "accountability", "group": "brokerage", "name": "Weichert accountability group", "status": "Running", "health": "On track", "summary": "Bill Scavone's Monday Zoom group for Weichert brokers, through end of 2026. Weekly KPI form due before the call.", "next": "Agents' numbers due Sunday night, KPI form Monday morning", "due": "2026-11-09"},
-    {"id": "bureau", "group": "products", "name": "Bureau of Record", "status": "Building", "health": "Needs me", "summary": "Done-for-you verified hyperlocal newsletter and podcast sold to other brokerages. Portal built, Folsom and Elk Grove running, NJ pitch made.", "next": "Confirm the entity at bizfileonline.sos.ca.gov and add the Resend key so scheduled sends can go out", "due": ""},
-    {"id": "jim-deck", "group": "products", "name": "Jim Cornett SBA loan deck", "status": "Paused", "health": "Waiting", "summary": "Helping Jim build the slide deck for his bankers and drafting follow-up questions to him.", "next": "Waiting on Jim's answers", "due": ""},
-    {"id": "legacy-table", "group": "personal", "name": "The Legacy Table", "status": "Live", "health": "On track", "summary": "Senior education seminar series at The Commons at Granite City. Nov 5 session just ran. Two sites now on GitHub Pages.", "next": "Export the 42 old RSVPs from Netlify Forms, then delete the two old Netlify projects", "due": ""},
-    {"id": "expireds", "group": "personal", "name": "Folsom expireds and Didn't Sell", "status": "Live", "health": "Needs me", "summary": "60-day campaign to expired, withdrawn and cancelled Folsom listings. Seller page live and in the site nav.", "next": "Record the three-minute Price Ladder walkthrough for the empty video slot", "due": ""},
-    {"id": "fox-valley", "group": "personal", "name": "4529 Fox Valley Circle listing", "status": "Running", "health": "Needs me", "summary": "Listing prospect in North Highlands, owner Donald Brault. Recommended $449,000.", "next": "Target go-live was today, Nov 6. Confirm the listing is filed", "due": "2026-11-06"},
-    {"id": "sphere", "group": "personal", "name": "Folsom Sphere Thirty", "status": "Paused", "health": "Waiting", "summary": "30-day past-client re-engagement campaign. Built, held to a 9 or better, still needs your real vendor names and the 40 ways handout link.", "next": "Fill in vendor names and the handout link, then start week one", "due": ""},
-    {"id": "my-site", "group": "personal", "name": "scott-kirk.wrspg.com cleanup", "status": "Running", "health": "On track", "summary": "Agent site cleanup done Oct 29. A few footer and template items still open.", "next": "Pick a real Folsom photo for the homepage hero", "due": ""},
-    {"id": "hosting", "group": "infra", "name": "Netlify to GitHub Pages move", "status": "Running", "health": "On track", "summary": "Static sites move to GitHub Pages by git push. Legacy Table done. Three Folsom lead sites have repos created.", "next": "Point DNS for the three Folsom lead sites and test their Web3Forms", "due": ""},
-    {"id": "this-dashboard", "group": "infra", "name": "sierrapacificgroup.homes", "status": "Live", "health": "On track", "summary": "This dashboard. Static site, one JSON file per project, GitHub Pages.", "next": "Tell Claude what changed and it pushes the update", "due": ""},
-    {"id": "bookkeeping", "group": "infra", "name": "Enterprise P&L", "status": "Running", "health": "On track", "summary": "Annual P&L in Excel reconciled against two AMEX exports. Changed numbers red, new numbers black.", "next": "Next AMEX reconciliation when the statements land", "due": ""}
-  ]
+ "updated": "2026-11-06",
+ "groups": [
+  {
+   "id": "brokerage",
+   "name": "Brokerage"
+  },
+  {
+   "id": "products",
+   "name": "Products and ventures"
+  },
+  {
+   "id": "personal",
+   "name": "My own book"
+  },
+  {
+   "id": "infra",
+   "name": "Sites and systems"
+  }
+ ],
+ "projects": [
+  {
+   "id": "ai-plan",
+   "group": "brokerage",
+   "name": "SPG AI plan and 30-day playbook",
+   "status": "Running",
+   "health": "On track",
+   "summary": "AEO content on existing systems, share-of-voice baseline, one-month video pilot. Dec 1 gate decides the Academy subscription.",
+   "next": "Collect written AI-aware sign-off from the 551 Gage sellers before pilot video one posts",
+   "due": "2026-12-01",
+   "waiting": 0
+  },
+  {
+   "id": "ai-race",
+   "group": "brokerage",
+   "name": "AI answer visibility race",
+   "status": "Running",
+   "health": "On track",
+   "summary": "Weekly scoreboard of how SPG shows up when people ask ChatGPT, Perplexity and Google AI who should sell their Folsom house. Review Engine feeds it.",
+   "next": "Read Monday's sweep, then teach the first agent the same setup",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "playbook",
+   "group": "brokerage",
+   "name": "AI Playbook, Scoreboard and Power Hour",
+   "status": "Live",
+   "health": "On track",
+   "summary": "Agents' prompt reference, the opt-in Friday Activity Scoreboard, and Tuesday Power Hour call blocks.",
+   "next": "Friday exceptions email: call anyone silent or three weeks under on conversations",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "get-found",
+   "group": "brokerage",
+   "name": "Get Found Online",
+   "status": "Running",
+   "health": "On track",
+   "summary": "Per-agent online profile fix-lists, the public 10-point self-audit page, and the one-link Google review drive.",
+   "next": "Send your own five backfill review asks to the Scott Kirk Realtor profile",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "listing-campaigns",
+   "group": "brokerage",
+   "name": "Launch My Listing",
+   "status": "Live",
+   "health": "On track",
+   "summary": "Every SPG listing gets the same campaign in the agent's name, built automatically from the intake form and verified against county records.",
+   "next": "Nothing open. Watch the hourly autobuild for failures",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "content",
+   "group": "brokerage",
+   "name": "Hyper-local content library",
+   "status": "Running",
+   "health": "Needs me",
+   "summary": "Folsom neighborhood blog posts to the Hannaford Cross AEO recipe, five a day until every neighborhood is done. You are the only verifier.",
+   "next": "Approve the next batch of neighborhood posts",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "recruiting",
+   "group": "brokerage",
+   "name": "Agent recruiting",
+   "status": "Running",
+   "health": "Needs me",
+   "summary": "Toward 30+ agents in a year. Comp is 6% off the top then 80/20, no fees. Tonya Pao is the reference agent.",
+   "next": "Follow up with Heather Cornell on the strategy questionnaire",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "accountability",
+   "group": "brokerage",
+   "name": "Weichert accountability group",
+   "status": "Running",
+   "health": "On track",
+   "summary": "Bill Scavone's Monday Zoom group for Weichert brokers, through end of 2026. Weekly KPI form due before the call.",
+   "next": "Agents' numbers due Sunday night, KPI form Monday morning",
+   "due": "2026-11-09",
+   "waiting": 0
+  },
+  {
+   "id": "bureau",
+   "group": "products",
+   "name": "Bureau of Record",
+   "status": "Building",
+   "health": "Needs me",
+   "summary": "Done-for-you verified hyperlocal newsletter and podcast sold to other brokerages. Portal built, Folsom and Elk Grove running, NJ pitch made.",
+   "next": "Confirm the entity at bizfileonline.sos.ca.gov and add the Resend key so scheduled sends can go out",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "jim-deck",
+   "group": "products",
+   "name": "Jim Cornett SBA loan deck",
+   "status": "Paused",
+   "health": "Waiting",
+   "summary": "Helping Jim build the slide deck for his bankers and drafting follow-up questions to him.",
+   "next": "Waiting on Jim's answers",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "legacy-table",
+   "group": "personal",
+   "name": "The Legacy Table",
+   "status": "Live",
+   "health": "On track",
+   "summary": "Senior education seminar series at The Commons at Granite City. Nov 5 session just ran. Two sites now on GitHub Pages.",
+   "next": "Export the 42 old RSVPs from Netlify Forms, then delete the two old Netlify projects",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "expireds",
+   "group": "personal",
+   "name": "Folsom expireds and Didn't Sell",
+   "status": "Live",
+   "health": "Needs me",
+   "summary": "60-day campaign to expired, withdrawn and cancelled Folsom listings. Seller page live and in the site nav.",
+   "next": "Record the three-minute Price Ladder walkthrough for the empty video slot",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "fox-valley",
+   "group": "personal",
+   "name": "4529 Fox Valley Circle listing",
+   "status": "Running",
+   "health": "Needs me",
+   "summary": "Listing prospect in North Highlands, owner Donald Brault. Recommended $449,000.",
+   "next": "Target go-live was today, Nov 6. Confirm the listing is filed",
+   "due": "2026-11-06",
+   "waiting": 0
+  },
+  {
+   "id": "sphere",
+   "group": "personal",
+   "name": "Folsom Sphere Thirty",
+   "status": "Paused",
+   "health": "Waiting",
+   "summary": "30-day past-client re-engagement campaign. Built, held to a 9 or better, still needs your real vendor names and the 40 ways handout link.",
+   "next": "Fill in vendor names and the handout link, then start week one",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "my-site",
+   "group": "personal",
+   "name": "scott-kirk.wrspg.com cleanup",
+   "status": "Running",
+   "health": "On track",
+   "summary": "Agent site cleanup done Oct 29. A few footer and template items still open.",
+   "next": "Pick a real Folsom photo for the homepage hero",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "hosting",
+   "group": "infra",
+   "name": "Netlify to GitHub Pages move",
+   "status": "Running",
+   "health": "On track",
+   "summary": "Static sites move to GitHub Pages by git push. Legacy Table done. Three Folsom lead sites have repos created.",
+   "next": "Point DNS for the three Folsom lead sites and test their Web3Forms",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "this-dashboard",
+   "group": "infra",
+   "name": "sierrapacificgroup.homes",
+   "status": "Live",
+   "health": "On track",
+   "summary": "This dashboard. Static site, one JSON file per project, GitHub Pages.",
+   "next": "Tell Claude what changed and it pushes the update",
+   "due": "",
+   "waiting": 0
+  },
+  {
+   "id": "bookkeeping",
+   "group": "infra",
+   "name": "Enterprise P&L",
+   "status": "Running",
+   "health": "On track",
+   "summary": "Annual P&L in Excel reconciled against two AMEX exports. Changed numbers red, new numbers black.",
+   "next": "Next AMEX reconciliation when the statements land",
+   "due": "",
+   "waiting": 0
+  }
+ ]
 }

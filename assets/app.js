@@ -55,6 +55,7 @@
     w.appendChild(el('span', 'pill', esc(p.status)));
     w.appendChild(el('span', 'pill ' + hcls(p.health), esc(p.health)));
     if (p.due) w.appendChild(el('span', 'pill due' + (p.due < today() ? ' late' : ''), 'Due ' + fmt(p.due)));
+    if (p.waiting) w.appendChild(el('span', 'pill h-needs', p.waiting + ' waiting on you'));
     return w;
   }
   function getJSON(u) { return fetch(u, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); }); }
@@ -128,6 +129,53 @@
     main.appendChild(el('div', 'nextbox', '<div class="k">Next action</div><div class="v">' + esc(p.next) + '</div>'));
 
     var cols = el('div', 'cols');
+
+    // ---- Waiting on you: items Claude queued for a decision, one tap each ----
+    var pending = d.pending || [];
+    var pend = el('div', 'panel full pend'); pend.appendChild(el('h2', '', 'Waiting on you'));
+    if (!pending.length) pend.appendChild(el('p', 'empty', 'Nothing waiting. When Claude queues something for a decision it shows up here.'));
+    pending.forEach(function (it) {
+      var row = el('div', 'prow');
+      var txt = el('div', 'ptxt', '<b>' + esc(it.title) + '</b>' + (it.detail ? '<div class="pdet">' + esc(it.detail) + '</div>' : ''));
+      if (it.url) { var a = el('a', 'plink', 'Open'); a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; txt.appendChild(a); }
+      row.appendChild(txt);
+      var acts = el('div', 'pacts');
+      ['Approve', 'Change', 'Hold'].forEach(function (act) {
+        var b = el('button', 'pbtn ' + act.toLowerCase(), act);
+        b.addEventListener('click', function () { prefill(act, it.title); });
+        acts.appendChild(b);
+      });
+      row.appendChild(acts); pend.appendChild(row);
+    });
+    cols.appendChild(pend);
+
+    // ---- Tell Claude: lands in scott@wrspg.com tagged [SPG dashboard]; an hourly task acts on it ----
+    var tc = el('div', 'panel full tell'); tc.appendChild(el('h2', '', 'Tell Claude'));
+    tc.innerHTML += '<form class="tcf">' +
+      '<div class="tcrow"><label>Action</label><select name="action"><option>Approve</option><option>Change</option><option>Hold</option><option>Done</option><option>Note</option></select></div>' +
+      '<div class="tcrow"><label>About</label><input name="about" placeholder="Which item (optional)"></div>' +
+      '<div class="tcrow"><label>Note</label><textarea name="note" rows="3" placeholder="What you want done, in your words"></textarea></div>' +
+      '<div class="tcrow"><span></span><button type="submit">Send to Claude</button><span class="tcmsg"></span></div></form>';
+    var form = tc.querySelector('form'), msg = tc.querySelector('.tcmsg');
+    function prefill(act, about) { form.action.value = act; form.about.value = about; form.note.focus(); tc.scrollIntoView({ behavior: 'smooth' }); }
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var act = form.action.value, about = form.about.value.trim(), note = form.note.value.trim();
+      if (!note && !about) { msg.textContent = 'Say what, at least.'; return; }
+      msg.textContent = 'Sending';
+      var body = {
+        access_key: '15d8a1cf-91e6-41c7-a007-feb5318450eb',
+        subject: '[SPG dashboard] ' + id + ': ' + act,
+        from_name: 'SPG dashboard',
+        project: p.name, project_id: id, action: act, about: about, note: note,
+        page: location.href, sent: new Date().toString()
+      };
+      fetch('https://api.web3forms.com/submit', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(body) })
+        .then(function (r) { return r.json(); })
+        .then(function (j) { if (j.success) { msg.textContent = 'Sent. Claude picks it up within the hour.'; form.note.value = ''; form.about.value = ''; } else { msg.textContent = 'Did not send: ' + (j.message || 'unknown'); } })
+        .catch(function () { msg.textContent = 'Did not send. Check your connection.'; });
+    });
+
     function panel(title, items, render, full) {
       var pn = el('div', 'panel' + (full ? ' full' : '')); pn.appendChild(el('h2', '', title));
       if (!items || !items.length) { pn.appendChild(el('p', 'empty', 'Nothing here.')); }
@@ -144,6 +192,7 @@
     else lk.appendChild(el('p', 'empty', 'No links yet.'));
     cols.appendChild(lk);
     if (d.notes) { var n = el('div', 'panel full'); n.appendChild(el('h2', '', 'Notes')); n.appendChild(el('p', '', esc(d.notes))); cols.appendChild(n); }
+    cols.appendChild(tc);
     main.appendChild(cols);
     main.appendChild(el('p', 'foot', 'Edit data/' + esc(id) + '.json and data/projects.json to update this page.'));
   }

@@ -68,3 +68,20 @@ h2.group{font-size:22px;margin:26px 0 10px;padding-bottom:6px;border-bottom:2px 
 #gate input{width:100%;font:inherit;padding:10px;border:1px solid #444;background:#000;color:#fff;margin-bottom:10px}
 #gate button{width:100%;font:inherit;padding:10px;background:var(--yellow);border:0;cursor:pointer}
 #gate .err{color:#ff8a80;font-size:13px;min-height:18px;margin-top:6px}
+.pend{border-left:5px solid var(--needs)}
+.prow{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;padding:10px 0;border-bottom:1px dashed var(--line);flex-wrap:wrap}
+.prow:last-child{border-bottom:0}
+.ptxt{flex:1;min-width:220px;font-size:15px}
+.pdet{font-size:14px;color:var(--mute);margin-top:2px}
+.plink{display:inline-block;margin-top:6px;font-size:13px}
+.pacts{display:flex;gap:6px}
+.pbtn{font:inherit;font-size:14px;padding:6px 12px;border:1px solid var(--ink);background:#fff;cursor:pointer}
+.pbtn.approve{background:var(--ink);color:var(--yellow)}
+.pbtn:hover{background:var(--yellow);color:var(--ink)}
+.tell{border-left:5px solid var(--yellow)}
+.tcrow{display:grid;grid-template-columns:70px 1fr;gap:10px;align-items:center;margin:8px 0}
+.tcrow label{font-size:13px;color:var(--mute)}
+.tcrow input,.tcrow select,.tcrow textarea{font:inherit;padding:8px 10px;border:1px solid var(--line);background:#fff;width:100%}
+.tcrow button{font:inherit;padding:9px 16px;background:var(--ink);color:var(--yellow);border:0;cursor:pointer;justify-self:start}
+.tcrow .tcmsg{font-size:13px;color:var(--mute);grid-column:2}
+@media (max-width:520px){.tcrow{grid-template-columns:1fr}.tcrow label{margin-bottom:-4px}}
