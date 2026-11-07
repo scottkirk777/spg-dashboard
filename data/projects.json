@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "groups": [
   {
    "id": "brokerage",
@@ -180,7 +180,7 @@
    "status": "Running",
    "health": "On track",
    "summary": "Agent site cleanup done Oct 29. A few footer and template items still open.",
-   "next": "Pick a real Folsom photo for the homepage hero",
+   "next": "Grade the site and fix what it finds (needs your computer)",
    "due": "",
    "waiting": 0
   },

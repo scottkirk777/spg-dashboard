@@ -3,6 +3,7 @@
   "Title and meta carry your name and Folsom. About bio uses the 500+ transactions since 2010 numbers. Service areas set to the canonical six. Alturas lots off the homepage carousel"
  ],
  "open": [
+  "Scott asked: Grade the page look for ways to improve the site and then make those changes and grade again",
   "Homepage template blurbs",
   "Price Ladder video",
   "Office-level footer quirks: 12-city Featured Areas row, Drive terms link, valuation page footer phone",
@@ -20,5 +21,6 @@
    "label": "scott-kirk.wrspg.com",
    "url": "https://scott-kirk.wrspg.com"
   }
- ]
+ ],
+ "notes": "Nov 7, 2026: the grade could not run from the cloud. scott-kirk.wrspg.com sits behind a Cloudflare bot check that blocks automated fetches, and site edits need a BoldTrail login, which Claude never does. Two ways to move it: turn on Require this computer for the SPG dashboard inbox task so the next run can load the site in your browser, or run the grade in a live chat on your computer."
 }
