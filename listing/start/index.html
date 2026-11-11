@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Listing intake | Sierra Pacific Group</title>
+<style>
+:root{--ink:#1c1c1d;--y:#ffea27;--paper:#fbfaf7;--rule:#dcd8cd;--mute:#6b675e;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "Helvetica Neue",Helvetica,Arial,sans-serif;padding:0 16px 64px}
+.wrap{max-width:640px;margin:0 auto}
+header{border-top:9px solid var(--y);margin:0 -16px;padding:22px 16px 0}
+.brand{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.brand b{color:var(--ink)}
+h1{font-size:clamp(30px,6vw,44px);line-height:1.05;letter-spacing:-.02em;margin:14px 0 8px}
+.lead{color:var(--mute);margin:0 0 26px;max-width:56ch}
+form{background:var(--card);border:1px solid var(--rule);border-top:5px solid var(--y);padding:22px 20px}
+label{display:block;font-weight:700;margin:18px 0 6px}
+label:first-of-type{margin-top:0}
+.hint{font-weight:400;color:var(--mute);font-size:14px;display:block;margin-top:2px}
+input[type=text],input[type=date],input[type=email],select,textarea{width:100%;font:inherit;padding:12px 12px;border:1.5px solid var(--rule);border-radius:0;background:#fff;color:var(--ink)}
+textarea{min-height:96px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:3px solid var(--y);outline-offset:0;border-color:var(--ink)}
+.row{display:grid;grid-template-columns:1fr;gap:0 16px}
+@media(min-width:560px){.row{grid-template-columns:1fr 1fr}}
+fieldset{border:0;padding:0;margin:18px 0 0}
+legend{font-weight:700;margin-bottom:6px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1.5px solid var(--rule);margin-top:8px;cursor:pointer}
+.opt input{margin-top:4px}
+.opt span{font-weight:400}
+.oh{display:grid;grid-template-columns:1fr;gap:8px;margin-top:8px}
+@media(min-width:560px){.oh{grid-template-columns:1fr 1fr}}
+.oh div{padding:10px 12px;border:1.5px solid var(--rule)}
+.oh b{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.oh input{margin-bottom:6px}
+.mic{display:inline-flex;align-items:center;gap:6px;font:700 13px/1 inherit;background:#fff;color:var(--ink);border:1.5px solid var(--ink);padding:7px 10px;margin:8px 0 0;cursor:pointer;border-radius:0}
+.mic.on{background:var(--y)}
+.mic[hidden]{display:none}
+button.go{display:block;width:100%;font:700 17px/1 inherit;background:var(--y);color:var(--ink);border:2px solid var(--y);padding:17px 20px;margin-top:26px;cursor:pointer;border-radius:0}
+button.go:hover{background:var(--ink);color:var(--y);border-color:var(--ink)}
+.note{font-size:14px;color:var(--mute);margin-top:14px}
+.hp{position:absolute;left:-9999px}
+footer{font-size:12.5px;color:var(--mute);margin-top:34px;line-height:1.7}
+.err{display:none;background:#fff3f3;border:1.5px solid #b00020;padding:12px;margin-top:16px;font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand"><b>Weichert, Realtors&reg; - Sierra Pacific Group</b> &nbsp;Folsom</div>
+  <h1>Listing intake</h1>
+  <p class="lead">About three minutes. Blanks are fine. Send what you have and say what is still coming. This is a private email to the office, not marketing, so nothing about filling it in starts a clock.</p>
+</header>
+
+<form id="intake" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="15d8a1cf-91e6-41c7-a007-feb5318450eb">
+  <input type="hidden" name="subject" id="subject" value="[SPG listing intake] new listing">
+  <input type="hidden" name="from_name" value="SPG listing intake">
+  <input type="hidden" name="redirect" value="https://sierrapacificgroup.homes/listing/start/sent/">
+  <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+  <p class="hp"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+
+  <label for="agent">Your name</label>
+  <select id="agent" name="agent" required>
+    <option value="">Pick your name</option>
+    <option>Adri Nicolls</option>
+    <option>Carlee Dalmau</option>
+    <option>Cecilia I. Lara</option>
+    <option>Darrel Schexnayder</option>
+    <option>Dora Ogunnaike</option>
+    <option>Jack Quist</option>
+    <option>Jessica Gill</option>
+    <option>Joe Cavazos</option>
+    <option>Kenneth Ramos</option>
+    <option>Lynda Descheemaeker</option>
+    <option>Marcos Rodriguez</option>
+    <option>Nate Boomhower</option>
+    <option>Paul Marchi</option>
+    <option>Rachael Taylor</option>
+    <option>Scott Kirk</option>
+    <option>Tonya Pao</option>
+  </select>
+  <span class="hint">Your title, DRE, public cell, email and headshot are already on file. You do not type any of them.</span>
+
+  <label for="address">Property address <span class="hint">Street, city and ZIP. This alone is enough to start the comps.</span></label>
+  <input type="text" id="address" name="address" required autocomplete="street-address" placeholder="551 Gage Ct, Folsom, CA 95630">
+  <button type="button" class="mic" data-for="address" hidden>&#127908; Speak it</button>
+
+  <div class="row">
+    <div>
+      <label for="mls">MLS number <span class="hint">Only exists once the listing is filed. Leave blank and send it later; the photos flow in then.</span></label>
+      <input type="text" id="mls" name="mls_number" inputmode="numeric" placeholder="Not filed yet">
+    </div>
+    <div>
+      <label for="price">List price <span class="hint">The number you and the seller agreed on.</span></label>
+      <input type="text" id="price" name="list_price" inputmode="numeric" placeholder="$739,000">
+    </div>
+  </div>
+
+  <fieldset>
+    <legend>Open houses <span class="hint">Day and hours for each. Leave one blank if there is only one.</span></legend>
+    <div class="oh">
+      <div><b>First</b><input type="date" name="open_house_1_date" aria-label="First open house date"><input type="text" name="open_house_1_hours" placeholder="Noon to 4" aria-label="First open house hours"></div>
+      <div><b>Second</b><input type="date" name="open_house_2_date" aria-label="Second open house date"><input type="text" name="open_house_2_hours" placeholder="Noon to 4" aria-label="Second open house hours"></div>
+    </div>
+    <label class="opt" style="margin-top:8px"><input type="checkbox" name="neighbor_preview" value="yes"><span>Add a neighbor preview the evening before the first open house. The door hangers invite the street.</span></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Offer review date <span class="hint">The strongest line in the campaign. It turns interest into competing paper. Skip it and the copy leans on the comps.</span></legend>
+    <label class="opt"><input type="radio" name="offer_review" value="none" checked><span>No published date. Lean on the comps.</span></label>
+    <label class="opt"><input type="radio" name="offer_review" value="date"><span>Publish a date:</span> <input type="date" name="offer_review_date" aria-label="Offer review date" style="margin-left:6px;width:auto"></label>
+  </fieldset>
+
+  <label for="noticed">The one thing you noticed standing in the house <span class="hint">The only line nobody can look up. Two stories of ceiling. The kitchen is the original oak and nobody hid it. It is a court so you cannot hear much out back.</span></label>
+  <textarea id="noticed" name="one_thing_noticed"></textarea>
+  <button type="button" class="mic" data-for="noticed" hidden>&#127908; Speak it</button>
+
+  <label for="changed">Anything on file that changed? <span class="hint">New cell, new title, new headshot. Otherwise leave it.</span></label>
+  <input type="text" id="changed" name="on_file_changed">
+
+  <label for="notes">Where things stand <span class="hint">What is still coming, what you are not sure about, anything else. Nothing about the sellers goes in marketing, whatever you write here.</span></label>
+  <textarea id="notes" name="notes"></textarea>
+  <button type="button" class="mic" data-for="notes" hidden>&#127908; Speak it</button>
+
+  <div class="err" id="err">Pick your name and give the address, then send.</div>
+  <button class="go" type="submit">Send the intake</button>
+  <p class="note">It goes to the office as a private email. The campaign gets built and you get a preview link by email, usually within the day. Rather talk it through: <a href="tel:+19168475822">916-847-5822</a>.</p>
+</form>
+
+<footer>
+  <b>Weichert, Realtors&reg; - Sierra Pacific Group</b> &middot; 705 Gold Lake Dr., Suite 250, Folsom, CA 95630 &middot; 916-656-4663 &middot; Corporate DRE #02088790<br>
+  <i>Independently owned and operated.</i> Internal form for SPG agents.
+</footer>
+</div>
+<script>
+(function(){
+  var f=document.getElementById('intake');
+  f.addEventListener('submit',function(e){
+    var a=document.getElementById('address').value.trim(), n=document.getElementById('agent').value;
+    if(!a||!n){e.preventDefault();document.getElementById('err').style.display='block';return;}
+    document.getElementById('subject').value='[SPG listing intake] '+a+' from '+n;
+  });
+  /* Voice input where the browser supports it (Chrome, Safari on iPhone). */
+  var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR) return;
+  document.querySelectorAll('.mic').forEach(function(b){
+    b.hidden=false;
+    var target=document.getElementById(b.dataset['for']), rec=null;
+    b.addEventListener('click',function(){
+      if(rec){rec.stop();return;}
+      rec=new SR(); rec.lang='en-US'; rec.interimResults=false; rec.continuous=false;
+      b.classList.add('on'); b.textContent='Listening. Tap to stop';
+      rec.onresult=function(ev){var t=ev.results[0][0].transcript; target.value=(target.value?target.value+' ':'')+t;};
+      rec.onend=function(){rec=null;b.classList.remove('on');b.innerHTML='&#127908; Speak it';};
+      rec.onerror=rec.onend;
+      try{rec.start();}catch(e){rec.onend();}
+    });
+  });
+})();
+</script>
+</body>
+</html>

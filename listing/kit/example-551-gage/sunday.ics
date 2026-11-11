@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Weichert Realtors Sierra Pacific Group//Open House//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:551gage-sun-20260920@wrspg.com
+DTSTAMP:20260917T180000Z
+DTSTART:20260920T190000Z
+DTEND:20260920T230000Z
+SUMMARY:Open house, 551 Gage Ct, Folsom
+LOCATION:551 Gage Ct, Folsom, CA 95630
+DESCRIPTION:Sunday noon to 4. Walk in, no appointment. Joe Cavazos 916-201-8482. https://spg-551-gage.netlify.app
+URL:https://spg-551-gage.netlify.app
+END:VEVENT
+END:VCALENDAR

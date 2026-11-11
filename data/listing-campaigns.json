@@ -3,16 +3,15 @@
   "Every listing: landing page, prep and staging guide, four emails, four door hangers, MLS remarks, six days of social, all in the agent's name",
   "Facts verified against the county record, never the agent's flyer. Nothing public before the MetroList filing. Describe the house, never the people",
   "Hourly scheduled task builds each intake to a noindexed preview and emails the agent with you copied",
-  "BoldTrail Smart Campaign template: New Listing Launch TEMPLATE - COPY ME, DO NOT RUN"
+  "BoldTrail Smart Campaign template: New Listing Launch TEMPLATE - COPY ME, DO NOT RUN",
+  "Nov 10, 2026: the kit and the intake form moved to GitHub Pages at sierrapacificgroup.homes/listing after the Netlify site was deleted. Intakes arrive by email; the hourly task builds previews under /listing/preview/"
  ],
- "open": [
-  "Voice input on the intake form fields (asked Sept 2026)"
- ],
+ "open": [],
  "milestones": [],
  "links": [
   {
    "label": "Intake form",
-   "url": "https://spg-listing-kit.netlify.app/start/"
+   "url": "https://sierrapacificgroup.homes/listing/start/"
   },
   {
    "label": "Launch My Listing (agent page)",
@@ -20,7 +19,7 @@
   },
   {
    "label": "Kit source",
-   "url": "https://spg-listing-kit.netlify.app/browse/"
+   "url": "https://github.com/scottkirk777/spg-dashboard/tree/main/listing/kit"
   }
  ]
 }
